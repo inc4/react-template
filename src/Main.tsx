@@ -5,9 +5,9 @@ import routes from './routes';
 import './styles/Main.scss';
 
 const Main = () => (
-  <Layout>
-    <RenderRoutes routes={routes} />
-  </Layout>
+    <Layout>
+        <RenderRoutes routes={routes}/>
+    </Layout>
 );
 
 export default Main;
